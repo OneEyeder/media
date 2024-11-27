@@ -796,7 +796,7 @@ margin: 0auto; */
     text-align: center;
     margin-bottom: 40px;
     font-size: 2.5rem;
-    
+
 }
 
 .about-content {
@@ -881,33 +881,34 @@ margin: 0auto; */
 }
 
 @media (max-width: 400) {
-    .count_index  {
+    .count_index {
         display: flex;
         flex-direction: column;
-        
+
     }
 }
+
 .hero-title {
     color: #FFC1EA;
 }
 
 .hero-title2 {
     color: #9CD9FC;
-    
-}
-
-.awards  {
-    color: #F8E481; 
 
 }
-.product-title{
+
+.awards {
+    color: #F8E481;
+
+}
+
+.product-title {
     color: #FFC1EA;
 
 }
 
-.product-desc {
+.product-desc {}
 
-}
 .section-title {
     color: #FFC1EA;
 
@@ -915,39 +916,130 @@ margin: 0auto; */
 
 .about-text {
     color: #9CD9FC;
-    
-}
-.feedback-section{
-    background-color: #f9f9f9;padding:50px 0;text-align: center;
+
 }
 
-.callback-form {max-width:400px;
+.feedback-section {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.callback-form {
+    max-width: 400px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.callback-form input{
-    padding:12px;border:1px solid #ddd;
+.callback-form input {
+    padding: 12px;
+    border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 16px;
-}.callback-form button{
-    padding:12px;font-size:16px;
 }
-.feedback-section {background-color:#f9f9f9;padding:50px0;text-align: center;
-}.section-title{font-size:24px;margin-bottom:20px;
-    }
-    
 
-.callback-form {max-width:400px;margin:0 auto;display:flex;flex-direction: column;
-    gap:15px;
-}.callback-forminput {padding:12px;border:1px solid#ddd;
-    border-radius: 5px;font-size:16px;
-}.submit-button{padding:12px;font-size:16px;background-color:#4CAF50; /*Цвет кнопки */color: white; /*Цвет текста кнопки*/border:none;/* Убираемрамку*/border-radius:5px; /*Скругление углов */cursor: pointer; /*Указатель принаведении*/
-}.submit-button:hover {background-color:#45a049; /*Цвет кнопки принаведении*/
+.callback-form button {
+    padding: 12px;
+    font-size: 16px;
 }
+
+.feedback-section {
+    background-color: #f9f9f9;
+    padding: 50px0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.callback-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.callback-forminput {
+    padding: 12px;
+    border: 1px solid#ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-button {
+    padding: 12px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    /*Цвет кнопки */
+    color: white;
+    /*Цвет текста кнопки*/
+    border: none;
+    /* Убираемрамку*/
+    border-radius: 5px;
+    /*Скругление углов */
+    cursor: pointer;
+    /*Указатель принаведении*/
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+    /*Цвет кнопки принаведении*/
+}
+
 .section-title.contact {
     display: flex;
     justify-content: center;
-} 
+}
+
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+
+
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.container-form-1 {
+    display: flex;
+    justify-content: center;
+}
