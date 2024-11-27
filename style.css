@@ -796,6 +796,7 @@ margin: 0auto; */
     text-align: center;
     margin-bottom: 40px;
     font-size: 2.5rem;
+    
 }
 
 .about-content {
@@ -845,7 +846,7 @@ margin: 0auto; */
 }
 
 .section-title {
-    text-align: center;
+    text-align: start;
     margin-bottom: 40px;
     font-size: 2.5rem;
     /* Размер шрифта заголовка */
@@ -886,3 +887,67 @@ margin: 0auto; */
         
     }
 }
+.hero-title {
+    color: #FFC1EA;
+}
+
+.hero-title2 {
+    color: #9CD9FC;
+    
+}
+
+.awards  {
+    color: #F8E481; 
+
+}
+.product-title{
+    color: #FFC1EA;
+
+}
+
+.product-desc {
+
+}
+.section-title {
+    color: #FFC1EA;
+
+}
+
+.about-text {
+    color: #9CD9FC;
+    
+}
+.feedback-section{
+    background-color: #f9f9f9;padding:50px 0;text-align: center;
+}
+
+.callback-form {max-width:400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.callback-form input{
+    padding:12px;border:1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}.callback-form button{
+    padding:12px;font-size:16px;
+}
+.feedback-section {background-color:#f9f9f9;padding:50px0;text-align: center;
+}.section-title{font-size:24px;margin-bottom:20px;
+    }
+    
+
+.callback-form {max-width:400px;margin:0 auto;display:flex;flex-direction: column;
+    gap:15px;
+}.callback-forminput {padding:12px;border:1px solid#ddd;
+    border-radius: 5px;font-size:16px;
+}.submit-button{padding:12px;font-size:16px;background-color:#4CAF50; /*Цвет кнопки */color: white; /*Цвет текста кнопки*/border:none;/* Убираемрамку*/border-radius:5px; /*Скругление углов */cursor: pointer; /*Указатель принаведении*/
+}.submit-button:hover {background-color:#45a049; /*Цвет кнопки принаведении*/
+}
+.section-title.contact {
+    display: flex;
+    justify-content: center;
+} 
