@@ -1,3 +1,53 @@
+
+@font-face {
+    font-family: ABC Diatype, Arial, sans-serif;
+    src: url('./font3/abc-diatype-regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: ABC Diatype, Arial, sans-serif;
+    src: url('./font3/abc-diatype-regular.otf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: ABC Diatype, Arial, sans-serif;
+
+}
+
+
+
+@media(max-width: 753px)  {
+    .span-mobile {
+        color: black;
+    }
+}
+
+
+
+@media(max-width: 400px)  {
+    .blue-btn.btn{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 360px)  {
+    .blue-btn.btn{
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 325px)  {
+    .blue-btn.btn{
+        font-size: 8px;
+    }
+}
+
 .blue-btn {
     text-decoration: none;
     color: white;
@@ -398,7 +448,6 @@ body .fixed .header__search.open {
     font-style: normal;
     font-weight: 500;
     font-size: 34px;
-    /* font-family: 'ABC Diatype ' ; */
     line-height: 41px;
     font-size: 1.77vw;
     line-height: 2.14vw;
@@ -436,7 +485,7 @@ body .fixed .header__search.open {
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: ABC Diatype, Arial, sans-serif;
 }
 
 /* Style for video container */
@@ -896,7 +945,8 @@ margin: 0auto; */
     /* Цвет текста абзаца */
     font-size: 1.1rem;
     /* Размершрифта */
-    font-family: 'Roboto', sans-serif;
+    font-family: ABC Diatype, Arial, sans-serif;
+    
     /* Шрифт */
     text-align: justify;
     /* Выравнивание поширине*/
@@ -1332,17 +1382,15 @@ a {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: ABC Diatype, Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Стилидля заголовка*/
 
 
 
 
-/* Адаптациядля GalaxyZ Fold5*/
 @media (min-width:640px) and(max-width:768px) {
     .wrapper2 {
         flex-direction: column;
