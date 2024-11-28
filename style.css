@@ -1,3 +1,26 @@
+.blue-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #2E274D;
+    padding-block: 30px;
+    padding-inline: 60px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: transform 0.3s ease;
+
+}
+.blue-btn.btn {
+background-color:#C442B7 ;
+}
+
+.blue-btn:hover {
+    background-color: #9CD9FC;
+
+
+}
+.product_block  {
+}
 html {
     scroll-behavior: smooth;
 }
@@ -380,7 +403,7 @@ body .fixed .header__search.open {
     font-size: 1.77vw;
     line-height: 2.14vw;
     letter-spacing: -0.03em;
-    color: #FF58C6 ;
+    color: #FF58C6;
 }
 
 .hero-title2 {
@@ -648,7 +671,7 @@ margin: 0auto; */
     /* Немного скругленныеуглы */
     padding: 25px;
     transition: all0.3sease;
-    background-color: #f9f9f9;
+    background-color: #FFC1EA;
     /* Легкий фон */
 }
 
@@ -1592,15 +1615,18 @@ body {
         align-items: center;
         justify-content: center;
     }
+
     .about-image {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-.button-contact:hover {
-    transform: scale(1.3);
 
-}
-.wrapper.container {
-padding: 0;
-}
+    .button-contact:hover {
+        transform: scale(1.3);
+
+    }
+
+    .wrapper.container {
+        padding: 0;
+    }
